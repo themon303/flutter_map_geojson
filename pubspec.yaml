@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   latlong2: ^0.9.0
-  flutter_map: ">=8.0.0 <9.0.0"
+  flutter_map:
+    git:
+      url: https://github.com/themon303/flutter_map
 
 dev_dependencies:
   flutter_test:
