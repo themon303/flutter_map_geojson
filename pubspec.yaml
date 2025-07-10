@@ -6,14 +6,14 @@ version: 1.0.8
 homepage: https://github.com/jozes/flutter_map_geojson
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
   flutter: ">=3.13.0"
 
 dependencies:
   flutter:
     sdk: flutter
   latlong2: ^0.9.0
-  flutter_map: ">=6.0.0 <8.0.0"
+  flutter_map: ">=8.0.0 <9.0.0"
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +22,4 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  uses-material-design: true
